@@ -13,10 +13,10 @@ class Entity:
             self.hp = 0
 
 class Player(Entity):
-    def __init__(self, hp: int, attack: int, defense: int, name: str):
+    def __init__(self, hp: int, attack: int, defense: int, name: str, id: int):
         super().__init__(hp, attack, defense)
         self.name = name
-    
+        self.id = id
 class Enemy(Entity):
     def __init__(self, hp: int, attack: int, defense: int, type: str):
         super().__init__(hp, attack, defense)
