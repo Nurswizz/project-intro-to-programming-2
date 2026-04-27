@@ -2,13 +2,19 @@ import csv
 
 BASE_URL = "./data"
 
+URLS = { 
+    "users": f"{BASE_URL}/users.csv",
+    "items": f"{BASE_URL}/items.csv",
+    "quests": f"{BASE_URL}/quests.csv",
+}
+
 def load_csv(filename):
-    with open(f"{BASE_URL}/{filename}", mode='r', encoding='utf-8') as file:
+    with open(URLS[filename], mode='r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         return list(reader)
 
 def add_entry(filename, entry):
-    with open(f"{BASE_URL}/{filename}", mode='a', encoding='utf-8', newline='') as file:
+    with open(URLS[filename], mode='a', encoding='utf-8', newline='') as file:
         writer = csv.DictWriter(file, fieldnames=entry.keys())
         writer.writerow(entry)
 
