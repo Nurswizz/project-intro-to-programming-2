@@ -1,0 +1,11 @@
+id,name,type,effect_value,description,rarity,price
+1,Health Potion,potion,30,Restores 30 HP,common,20
+2,Greater Health Potion,potion,80,Restores 80 HP,uncommon,50
+3,Iron Sword,weapon,5,+5 Attack,common,30
+4,Steel Sword,weapon,10,+10 Attack,uncommon,80
+5,Shadow Blade,weapon,20,+20 Attack,rare,200
+6,Antidote,potion,0,Cures all status effects,common,15
+7,Iron Shield,armor,5,+5 Defense,common,35
+8,Battle Axe,weapon,15,+15 Attack,uncommon,120
+9,Elixir,potion,200,Fully restores HP,rare,150
+10,Speed Amulet,buff,3,Grants speed boost for 3 turns,uncommon,60

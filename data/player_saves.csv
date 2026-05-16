@@ -1,0 +1,3 @@
+username,name,hp,max_hp,attack,defense,level,xp,xp_to_next,gold,kills,weapon_bonus,armor_bonus,equipped_weapon_id,equipped_armor_id
+test_user,TestHunter,100,100,10,5,1,80,100,100,0,0,0,none,none
+Nurswizz,Nurs,104,120,28,7,2,70,282,106,6,15,0,8,none

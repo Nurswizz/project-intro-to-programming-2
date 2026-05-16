@@ -1,0 +1,9 @@
+id,name,hp,attack,defense,xp_reward,gold_reward,level,rank,special_ability
+1,Goblin Scout,30,8,2,20,10,1,E,none
+2,Dire Wolf,45,11,3,35,15,1,E,none
+3,Orc Warrior,65,14,5,55,25,2,D,none
+4,Dark Mage,55,16,4,65,30,2,D,magic_bolt
+5,Stone Golem,110,18,10,105,50,3,C,none
+6,Shadow Drake,130,22,8,160,80,4,B,poison
+7,Demon Lord,210,30,12,310,155,7,A,stun
+8,Shadow Monarch,500,50,20,1000,500,10,S,shadow_army
